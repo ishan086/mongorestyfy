@@ -20,7 +20,7 @@ public class Application implements CommandLineRunner {
 		//repository.deleteAll();
 
 		// save a couple of customers
-		repository.save(new Customer("Alice", "secret"));
+		repository.save(new Customer("baba", "come"));
 		repository.save(new Customer("Bob", "secret2"));
 
 		// fetch all customers
